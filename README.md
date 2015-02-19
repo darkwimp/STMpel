@@ -9,7 +9,10 @@ Design based on Dan Berard´s STM [1]
 
 Frame based on Hexagon V_I from fablab-kalsruhe.de [2]
 
+
 1.) Frame
+
+Hexagonal frame from aluminum profiles with 3D-printed vertices.
 
 
 2.) Electronics
@@ -17,10 +20,12 @@ Frame based on Hexagon V_I from fablab-kalsruhe.de [2]
 No final decision has yet been made on which architecture the software is going to run on. 
 
 2.1) DAC
+
 Dan´s doc does not include documentation or code for the 4-channel digital-analog converter DAC8734 [3]
-As of 19.02.2015 there seems to be a problem in SPI comms, losing the MSB of each Byte. 
+As of 19.02.2015 there seems to be a problem in SPI comms between the DAC and Arduino, losing the MSB of each Byte. 
 
 Still, a simple Arduino sketch managed to fiddle with the output levels of the DAC. 
+
 
 X.) Links
 
