@@ -17,7 +17,9 @@ Hexagonal frame from aluminum profiles with 3D-printed vertices.
 
 2.) Electronics
 
-No final decision has yet been made on which architecture the software is going to run on. 
+No final decision has yet been made on which architecture the software is going to run on.
+Currently leaning towards Python on a Beaglebone Black. 
+Tests are being done on an Arduino, though. 
 
 2.1) DAC
 
